@@ -1,5 +1,6 @@
 from calcStrategy import CalcStrategy
 
+
 class CalcContext:
     def __init__(self, strategy: CalcStrategy):
         self._calc_strategy = strategy

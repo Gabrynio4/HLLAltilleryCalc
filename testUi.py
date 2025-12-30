@@ -18,7 +18,7 @@ elif nation == "u":
     strategy = UssrCalcStrategy()
 else:
     raise ValueError("Invalid input. 'a', 'b' or 'u' expected")
-    
+
 context = CalcContext(strategy)
 result = context.calculate(distance=distance)
 if result == 0:

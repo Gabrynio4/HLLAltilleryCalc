@@ -1,5 +1,6 @@
 from calcStrategy import CalcStrategy
 
+
 class BritsCalcStrategy(CalcStrategy):
     def calculate(self, distance: int) -> int:
         if 100 <= distance <= 1600:
